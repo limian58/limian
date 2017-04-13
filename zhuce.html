@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="js/lib/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="PHP1/Ajax.js" type="text/javascript" charset="utf-8"></script>
+		
+		<title></title>
+	</head>
+	<body>
+		账号<input type="text" id="yourName" name="uname"/>
+		密码<input type="password" id="password" name="pwd"/>
+		手机<input type="text" id="ipon" name="ipon"/>
+		注册<button id="zhuce">注册</button>
+		<script type="text/javascript">
+			
+				document.getElementById("zhuce").onclick=function(){
+							alert("ss")
+				 for(var i=0;i<document.getElementsByTagName("input").length;i++){
+					if(document.getElementsByTagName("input")[i].value!=""){
+						ajaxRequest("post","PHP1/regist.php",true,{
+							"account":document.getElementById("yourName").value,
+							"secret":document.getElementById("password").value,
+							"mobile":document.getElementById("ipon").value
+						},function(data){
+							data=data.replace(/\s+/g,"");
+							if(data=="0"){
+								alert("注册失败！！");
+							}else{
+								alert("恭喜！！！成功！！！");
+							}
+						
+						});
+					}else{
+						alert("请输入正确格式的信息！！！")
+					}
+				}
+			}
+
+		
+		</script>
+	</body>
+</html>

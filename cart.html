@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/cart.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/lib/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/template.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app/cartFoot.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app/cart.js" type="text/javascript" charset="utf-8"></script>
+		<title>结算</title>
+	</head>
+<body>
+<div class="cart">
+	<div class="cartTop">
+		<div class="cart-top">
+			<span>hi请登录</span>　　　　　　　　　　　　　　　　　　　　　
+			<a href="">免费注册</a>
+			<a href="">我的订单</a>　　
+			<a href="">我的酒仙网</a>　　
+			<a href="">客服热线</a>　　
+			<span style="font-size:25px;color:red">8093284284309</span>
+		</div>
+	</div>
+	<div class="cartLogo">
+		<div class="cartLogo-center">
+			<div class="cartLL">
+				<img src="img/logo.png" alt="" />
+			</div>
+			<div class="cartLR">
+				<div class="RT"></div>
+				<div class="RB">
+					<p>我的购物车　　　　　　　　确认订单信息　　　　　　成功提交订单</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="detailBox">
+		<div class="detailBoxCenter">
+			<div class="area">
+				<div class="area-gouwu">购物车</div>
+				<div class="area-area"></div>
+				<div class="area-denglu">　　现在 <a href="" style="font-size:13px;color:#296693">登录</a>
+					,您购物车中的商品将被永久保存
+				</div>
+			</div>
+			<div class="detail-tit">
+				<span><input type="checkbox" class="_all"/>全选</span>
+				<span></span>
+				<span>商品名称</span>
+				<span>单价</span>
+				<span>数量</span>
+				<span>商品合计</span>
+				<span>操作</span>
+			</div>
+			<div class="detail-jiuxian">
+				<div class="C">
+					<input type="checkbox" class="_all"/>　　
+					<i class="shopIcon jxzy"></i>
+				</div>		
+				<span class="jiuxian">酒仙自营</span>
+			</div>
+			<ul class="detailMin clearfix">
+				
+			</ul>
+			<div class="jiesuan">
+				<div class="jiesuan_left">
+					　<input type="checkbox" class="_all"/>全选　
+					<span class="deleSp">删除选中商品　</span>
+					<span class="QK">清空购物车　</span>
+				</div>
+				<div class="qingkong">
+					<a href="" class="jixu">继续购物</a>
+				</div>
+				<div class="jiesuna_right">
+					<span></span>
+					<span>总计 (不含运费) :</span>
+					<span class='zongjia'></span>
+					<a href="" class="qujiesuan">去结算</a>
+				</div>
+			</div>
+			<div class="chong">
+				<div class="CTop">
+					<div>猜您喜欢</div><div>我的收藏</div><div>最近浏览</div><div>新品推荐</div>
+				</div>
+				<div class="chong2">		
+					
+				</div>
+				<script id="cartHos" type="text/html">
+					{{each list as value}}
+						<ul class="Chang_ul1">
+							{{each value.li as v}}
+								<li>
+									<img src="{{v.img}}" alt="" />
+									<p>{{v.tit}}</p>
+									<p>{{v.price}}</p>
+									<p class="gouwuche">
+										<a href="" class="gouA">
+											<i class="cartIcon"></i>
+											<a>加入购物车</a>
+										</a>
+									</p>
+								</li>
+							{{/each}}
+						</ul>	
+					{{/each}}
+				</script>
+			</div>
+		</div>
+	</div>	
+	<div class="cartFoot"></div>
+	<div class="cartFooter"></div>
+	<div class="foot" style="width:1288px">
+		<div class="footTop">
+			<div class="footTopLeft">
+				<div class="footContact">
+					<i class="publicIcon"></i>
+					<b>400-716-9999</b>
+					<span>客服热线</span>
+					<span>9:00-23:00</span>
+					<span>贴心服务</span>
+				</div>
+			</div>			
+			<div class="footTopRight">
+				<div class="ftRight-tit">优惠早知道</div>			
+				<input type="email" class="user0" placeholder="请输入邮箱"/>
+				<i class="publicIcon"></i>
+			</div>
+		</div>
+		<div class="footBottom">
+			<ul class="clearfix foot_ul">				
+			</ul>
+			<div class="footBottomRight">
+				<div class="sinaMbCom1 clearfix"><a href=""><i class="publicIcon"></i></a><a href="">酒仙新浪微博</a></div>	
+				<div class="sinaMbCom2 clearfix"><a href=""><i class="publicIcon"></i></a><a href="">酒仙微信</a>
+					<div class="abso"><img src="img/weixin-code.jpg" alt="" /></div>
+				</div>	
+				
+			</div>
+			<script id="footBottom1" type="text/html">
+			{{each footBottom as value}}
+				<li class="{{value.class}}">
+					<h3>
+						<i class="publicIcon"></i>
+						<span>{{value.tit}}</span>
+					</h3>
+					{{each value.p as item}}
+					<p><a href="">{{item}}</a></p>
+					{{/each}}
+				</li>
+			{{/each}}
+			</script>
+		</div>
+	</div>
+	<div class="footer" style="width:1288px">
+		<div class="footer_center">
+			<div class="footer_left">
+				
+			</div>
+			<script id="footer_left" type="text/html">
+				{{each footer as value}}
+				<p>{{each value.p1a as p1a}}
+					<a href="">{{p1a}}</a>
+					{{/each}}
+				</p>
+				<p style="font-size:13px;color:#666">{{value.p2a}}</p>
+				<p>
+					{{each value.p3a as p3a}}
+					<a href="" style="font-size:13px;color:#999;">{{p3a}}</a>
+					{{/each}}					
+				</p>
+				<p style="font-size:13px;color:#999;">{{value.p4a}}</p>
+				<p style="font-size:13px;color:#999">{{value.p5a}}</p>
+				<p style="margin-top:10px;">
+					{{each value.p6a as p6a}}
+					<a href="" style="float:left;;width:127px;height:47px;"><img src="{{p6a}}" alt="" />	</a>
+					{{/each}}									
+				</p>
+				<div class="clear"></div>
+				<p style="font-size:13px;color:#f00;margin-top:10px;">{{value.p7a}}</p>
+				{{/each}}
+			</script>
+			<div class="footer_right">		
+			</div>
+			<script id="footer_right" type="text/html">
+				{{each footerImg as value}}
+				<div class="footer_right_left">					
+					<img src="{{value.img}}" alt="" />											
+					<span style="font-size:13px;color:#666">{{value.tit}}</span>					
+				</div>
+				{{/each}}
+			</script>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/listPage.css" />
+		<link rel="stylesheet" href="css/jquery-page.css" />
+		
+		<script src="js/lib/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/template.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/jquery.page.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app/listPage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app/cart.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+<body>
+	<div class="page">
+		
+	</div>
+	<div class="pageTwo">
+		<div class="pageTwo-center">
+			<ul class="listcontainers _center clear">
+				
+			</ul>	
+		</div>	
+		<div class="page-footer">
+			
+		</div>
+		<script id="list01" type="text/html">
+			<li class="list-Li">
+				<a href="detail.html?id={{id}}">
+					<img src={{imgsrc[0]}} alt[]="" />
+				</a>
+				<p class="listPf">
+					<span class="listPrice">{{price}}　</span>
+					<span>{{guanzhu}}</span>
+				</p>
+				<p class="listTit">{{title}}</p>
+				<p>{{sales}}</p>
+				<p class="listJiaru">
+					<a href="">{{comments}}</a>
+					<a href="">收藏</a>
+					<a href="###" class="listAdd" href="javascript:;">加入购物车</a>
+				</p>
+			</li>
+		</script>
+	</div>
+</body>
+</html>

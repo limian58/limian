@@ -1,0 +1,870 @@
+{
+	"fliir1":{
+		"1001":[
+			{	"divId":"floor1",
+				"F":"1F",
+				"tit":"白酒馆你来不来",
+				"ID":"topTenWrap1",
+				"Iclass":"newIndexIcon comIcon1",				
+				"goBlank":"goBlank",
+				"go":"去白酒馆?不去，没钱",
+				"UL":"Floor1_ul",
+				"list":["白酒","红酒","脾酒","茶水"],
+				"img":["img/imgBox1.jpg","img/imgBox2.jpg","img/imgBox3.jpg","img/imgBox1.jpg"],
+				"Flist":[
+					{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/img03.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/img04.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					}
+					
+				],
+				"remen":[
+					{
+						"h3":"热门推荐",
+						"titLise":["sss","dff","ddsfs"]
+						
+					},
+					{
+						"h3":"热门推荐",
+						"titLise":["水电费","二收到","水电费","热是","是的发送到","水电费"]
+					}
+				],
+				"Two":[
+					{	"C":"spa",
+						"F":"1F",
+						"IClass":"topTen1 newIndexIcon",
+						"benzhou":"本周热销",
+						"xinghao":["酱香　｜","鼎折　｜","放到　｜","特的　｜"]
+					}
+				],
+				"liImg01":[{
+					"CC":"Floor_img",
+					"div1":[
+						{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi":["老酒","$888"]
+						},{
+							"id01":"data-id1",
+							"img01":"img/F2.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id02":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id03":"data-id1",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id04":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div2":[
+						{
+							"id1":"data-id2",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/img2.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/imgA1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div3":[
+						{
+							"id2":"data-id3",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],"div4":[
+						{
+							"id2":"data-id4",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id4",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id4",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id4",
+							"img01":"img/F4.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					]
+				}]
+							
+			}	
+		],"1002":[
+			{	"divId":"floor2",
+				"tit":"葡萄酒馆你来不来",
+				"F":"2F",
+				"UL":"Floor2_Ul",
+				"ID":"topTenWrap2",
+				"Iclass":"newIndexIcon comIcon2",				
+				"goBlank":"goBlank",
+				"go":"去白酒馆?不去，没钱",
+				"list":["白酒","红酒","脾酒","茶水"],
+				"img":["img/imgBox1.jpg","img/imgBox2.jpg","img/imgBox3.jpg","img/imgBox1.jpg"],
+				"Flist":[
+					{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					}
+					
+				],
+				"remen":[
+					{
+						"h3":"热门推荐",
+						"titLise":["sss","dff","ddsfs"]
+						
+					},
+					{
+						"h3":"热门推荐",
+						"titLise":["水电费","二收到","水电费","热是","是的发送到","水电费"]
+					}
+				],
+				"Two":[
+					{"C":"spa2",
+						"F":"2F",
+						"IClass":"topTen1 newIndexIcon",
+						"benzhou":"本周热销",
+						"xinghao":["酱香","鼎折","放到","特的"]
+					}
+				],
+				"liImg01":[{
+				"CC":"Floor_img2",
+					"div1":[
+						{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi":["老酒","$888"]
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div2":[
+						{
+							"id1":"data-id2",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div3":[
+						{
+							"id2":"data-id3",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],"div4":[
+						{
+							"id2":"data-id3",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/11111.jpg",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					]
+				}]
+							
+			}	
+		],"1003":[
+			{	"divId":"floor3",
+				"tit":"白酒馆你来不来",
+				"F":"3F",
+				"UL":"Floor3_Ul",
+				"ID":"topTenWrap3",
+				"Iclass":"newIndexIcon comIcon3",				
+				"goBlank":"goBlank",
+				"go":"去白酒馆?不去，没钱",
+				"list":["白酒","红酒","脾酒","茶水"],
+				"img":["img/imgBox1.jpg","img/imgBox2.jpg","img/imgBox3.jpg","img/imgBox1.jpg"],
+				"Flist":[
+					{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					}
+					
+				],
+				"remen":[
+					{
+						"h3":"热门推荐",
+						"titLise":["sss","dff","ddsfs"]
+						
+					},
+					{
+						"h3":"热门推荐",
+						"titLise":["水电费","二收到","水电费","热是","是的发送到","水电费"]
+					}
+				],
+				"Two":[
+					{	"C":"spa3",
+						"F":"3F",
+						"IClass":"topTen1 newIndexIcon",
+						"benzhou":"本周热销",
+						"xinghao":["酱香","鼎折","放到","特的"]
+					}
+				],
+				"liImg01":[{
+				"CC":"Floor_img3",
+					"div1":[
+						{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi":["老酒","$888"]
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div2":[
+						{
+							"id1":"data-id2",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div3":[
+						{
+							"id2":"data-id3",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					]
+				}]
+							
+			}	
+		],"1004":[
+			{	"divId":"floor4",
+				"UL":"Floor4_Ul",
+				"tit":"休闲馆你来不来",
+				"F":"4F",
+				"ID":"topTenWrap4",
+				"Iclass":"newIndexIcon comIcon4",				
+				"goBlank":"goBlank",
+				"go":"去白酒馆?不去，没钱",
+				"list":["白酒","红酒","脾酒","茶水"],
+				"img":["img/imgBox1.jpg","img/imgBox2.jpg","img/imgBox3.jpg","img/imgBox1.jpg"],
+				"Flist":[
+					{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					}
+					
+				],
+				"remen":[
+					{
+						"h3":"热门推荐",
+						"titLise":["sss","dff","ddsfs"]
+						
+					},
+					{
+						"h3":"热门推荐",
+						"titLise":["水电费","二收到","水电费","热是","是的发送到","水电费"]
+					}
+				],
+				"Two":[
+					{	"C":"spa4",
+						"F":"4F",
+						"IClass":"topTen1 newIndexIcon",
+						"benzhou":"本周热销",
+						"xinghao":["酱香　｜","鼎折　｜","放到　｜","特的"]
+					}
+				],
+				"liImg01":[{
+				"CC":"Floor_img4",
+					"div1":[
+						{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi":["老酒","$888"]
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div2":[
+						{
+							"id1":"data-id2",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					],
+					"div3":[
+						{
+							"id2":"data-id3",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						},{
+							"id0":"data-id1",
+							"img01":"img/F1.png",
+							"priceLi1":"老酒",
+							"priceLi2":"$888"
+						}
+					]
+				}]
+							
+			}	
+		],"1005":[
+			{	"divId":"floor5",
+				"UL":"Floor5_Ul",
+				"ID":"topTenWrap5",
+				"F":"5F",
+				"tit":"你来不来",
+				"Iclass":"newIndexIcon comIcon5",				
+				"goBlank":"goBlank",
+				"go":"去白酒馆?不去，没钱",
+				"list":["白酒","红酒","脾酒","茶水"],
+				"img":["img/imgBox1.jpg","img/imgBox2.jpg","img/imgBox3.jpg","img/imgBox1.jpg"],
+				"Flist":[
+					{
+						"id1": "10002",
+						
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor11.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor12.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/img05.png",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/img06.png",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					},{
+						"id1": "10002",
+						"p1":["老酒","特卖"],
+						"liTit1": "桑塔露琪莎当妮干白葡萄酒",
+						"liImg1":"img/Floor1.jpg",
+						"pri1": "￥49"
+					}
+					
+				]
+								
+			}	
+		]
+	}
+	
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/detail.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<script src="js/lib/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/lib/template.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/lib/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app/detail.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="js/app/cart.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#datailTop").load("index.html #top")
+			$(".NO").load("index.html .top-next")
+			$(".Logo").load("index.html .logo")
+			$(".detailNav").load("index.html .nav")
+			$(".detailRight").load("index.html .right_right")
+			
+		})
+</script>
+<title></title>
+</head>
+<body>
+<div id="detail">
+	<div id="end"></div>
+	<div id="msg">喝酒不好；因为->吸烟有害健康</div>
+	<div class="detailRight"></div>
+	<div class="detailTop" id="datailTop"></div>
+	<div class="NO"></div>
+	<div class="Logo"></div>
+	<div class="detailNav"></div>
+	<div class="datailTit">
+		<p>
+			<a href="">首页 > </a>
+			<a href="">洋酒> </a>
+			<a href="">轩尼诗 > </a>
+			<a href="">4040°轩尼诗VSOP干邑白兰地700ml > </a>
+		</p>
+	</div>
+	<div class="listView">
+		
+	</div>
+	<script id="detailMB" type="text/html">
+		<div class="datail-left">
+			<div class="midView">
+				<img class="midImg" src="{{img}}" alt="" />
+				<div class="smaView"></div>
+			</div>
+			<ul class="datail-ul01">
+				{{each smaImg as value}}
+					<li><img class="smaImg" src="{{value}}" alt="" /></li>
+				{{/each}}
+			</ul>
+			<div class="bigView">
+				<img class="bigImg" src="{{img}}" alt="" />
+			</div>
+			<div class="dataia-ul01-bottom">
+				<p>　　　　商品编号: 010001001　　　　　　　分享 收藏(1777)</p>
+			</div>
+		</div>
+		<div class="datail-right">
+			<div class="datail-right-top">
+				<div class="DRT_top">
+					<p>{{tit}}</p>
+					<p>{{tit1}}</p>
+				</div>
+				<div class="DRT_top2">
+					<div class="Price">
+						<div class="Price-left">酒仙价:<s>{{pri1}}</s></div>
+						<div class="Pimg"><img src="{{img2}}" alt="" />
+							<img class="dImg" src="{{img3}}" alt="" />
+						</div>
+					</div>
+					<div class="cuxiao">
+						<div class="cux">促销价 <a href="" style="color:red;font-size:20px;">{{pri2}}</a> </div>
+						<div class="daojishi">
+							<i class="dIcon"></i>
+							<div class="sy">剩余时间</div>
+						</div>
+					</div>
+					<div class="xiangou">
+						{{each cuxiao as cuxiao}}
+							<span>{{cuxiao}}</span>
+						{{/each}}
+					</div>
+				</div>
+			</div>
+			<div class="salesScoreGold">
+				<ul class="sal-ul1">
+					{{each liss as t}}
+						<li class="{{t.idli}}">
+							<i class="{{t.Iclass}}"></i>
+							<span>{{t.leiji}}</span>
+							<span>{{t.shuliang}}</span>
+						</li>
+					{{/each}}
+				</ul>
+			</div>
+			<div class="peisong"></div>
+			<div class="xuanze">
+				<span>选择</span>
+				{{each smallImg as l}}
+				<img class="teSmallImg" src="{{l}}" alt="" />
+				{{/each}}
+			</div>
+			<div class="shuliang">
+				<span>数量</span>
+				<div class="shuL">
+					<div class="Sleft">
+						<input type="number" class="Count" value="1"/>
+					</div>
+					<div class="Sright">
+						<div>∧</div>
+						<div>∨</div>
+					</div>
+				</div>
+			</div>
+			<button class="addBtn01" data={{id}}>加入购物车</button>
+			<a href="cart.html"><button class="liji">立即购买</button></a>
+		</div>
+	</script>
+</div>
+</body>
+</html>
